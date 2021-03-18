@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+<form class="py-2" id="all">
+    <button class="btn btn-primary rounded-0" type="submit">All</button>
+</form>
+<form class="py-2 row col-sm" id="name">
+    <button class="btn btn-primary rounded-0 py-2" type="submit">Name</button>
+    <input class="py-2 rounded-0 border" type="text" id="nombre" placeholder="name">
+</form>
+<form class="py-2 row col-sm" id="code">
+    <button class="btn btn-primary rounded-0" type="submit">Code</button>
+    <input class="py-2 rounded-0 border" type="text" id="codigo" placeholder="codigo">
+</form>
+<form class="py-2 row col-sm" id="codes">
+    <button class="btn btn-primary rounded-0" type="submit">Codes</button>
+    <h3 class="px-2">1:</h3><input class="py-2 rounded-0 border" type="text" id="codigo1" placeholder="codigo1">
+    <h3 class="px-2">2:</h3><input class="py-2 rounded-0 border" type="text" id="codigo2" placeholder="codigo2">
+    <h3 class="px-2">3:</h3><input class="py-2 rounded-0 border" type="text" id="codigo3" placeholder="codigo3">
+</form>
+<form class="py-2 row col-sm" id="currency">
+    <button class="btn btn-primary rounded-0" type="submit">Currency</button>
+    <input class="py-2 rounded-0 border" type="text" id="moneda" placeholder="currency">
+</form>
+<form class="py-2 row col-sm" id="lang">
+    <button class="btn btn-primary rounded-0" type="submit">Language</button>
+    <input class="py-2 rounded-0 border" type="text" id="idioma" placeholder="lang">
+</form>
+<form class="py-2 row col-sm" id="capital">
+    <button class="btn btn-primary rounded-0" type="submit">Capital</button>
+    <input class="py-2 rounded-0 border" type="text" id="cap" placeholder="capital">
+</form>
+<form class="py-2 row col-sm" id="callingcode">
+    <button class="btn btn-primary rounded-0" type="submit">CallingCode</button>
+    <input class="py-2 rounded-0 border" type="text" id="calcode" placeholder="callingcode">
+</form>
+<form class="py-2 row col-sm" id="region">
+    <button class="btn btn-primary rounded-0" type="submit">Region</button>
+    <input class="py-2 rounded-0 border" type="text" id="regional" placeholder="region">
+</form>
+<form class="py-2 row col-sm" id="regionalbloc">
+    <button class="btn btn-primary rounded-0" type="submit">RegionalBloc</button>
+    <input class="py-2 rounded-0 border" type="text" id="regionbloc" placeholder="regionalbloc">
+</form>
+<form class="py-2 row col-sm" id="services">
+    <button class="btn btn-primary rounded-0" type="submit">Mostrar tablas especificas: </button>
+    <h3 class="px-2">1:</h3><input class="py-2 rounded-0 border" type="text" id="valor1" placeholder="tabla1">
+    <h3 class="px-2">2:</h3><input class="py-2 rounded-0 border" type="text" id="valor2" placeholder="tabla2">
+    <h3 class="px-2">3:</h3><input class="py-2 rounded-0 border" type="text" id="valor3" placeholder="tabla3">
+</form>
+<table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">name</th>
+        <th scope="col">Region</th>
+        <th scope="col">Capital</th>
+        <th scope="col">Alphacode</th>
+        <th scope="col">Currency</th>
+        <th scope="col">Language</th>
+        <th scope="col">CallingCode</th>
+        <th scope="col">population</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+    </table>
+<script src="script/ajax.js">
+
+
+</script>
+
+</body>
+</html>
